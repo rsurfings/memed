@@ -14,7 +14,7 @@ $ git clone https://github.com/rsurfings/memed.git my-api
 $ cd my-api
 $ composer update
 $ php artisan migrate
-$ php -S localhost:8000 -t .
+$ php -S localhost:8000 -t public
 ```
 
 ## Métodos Disponiveis:
