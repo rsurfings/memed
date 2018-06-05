@@ -19,7 +19,7 @@ $ php -S localhost:8000 -t public
 
 ## Métodos Disponiveis:
 
-| Método | URL			 | Descrição | Parametros
+| Método | URL			 | Descrição | Parâmetros
 | ------ | ------------- | --------- | --------- |
 | GET    | http://localhost:8000/medicines | Lista de medicamentos |
 | GET    | http://localhost:8000/pharmacy?data={"lat":"-23.56483104","lon":"-46.61436604"} | Informações adicionais da farmácia|data={"lat":"-23.56483104","lon":"-46.61436604"}
