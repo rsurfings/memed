@@ -26,8 +26,4 @@ $ php -S localhost:8000 -t public
 | POST    | http://localhost:8000/checkout | Checkout da compra |{"id":1,"nome":"Farmais","distance":545,"totalprice":"41.38","info":[{"nome":"Ácido zoledrônico 4mg","preco":"10.86"},{"nome":"Água para injeção 1mL","preco":"30.06"},{"nome":"Bromazepam 3mg","preco":"0.46"}]}|
 | GET    | http://localhost:8000/checkout | lista da compra |
 
-<<<<<<< HEAD
-:R: Ronaldo Goncalves
-=======
-:m: Ronaldo Goncalves
->>>>>>> 28ad941afa35bf47fe5d55a3e9778370d9907792
+:r: Ronaldo Goncalves
