@@ -8,7 +8,7 @@ Criação de uma API REST que possibilite a busca de medicamentos e efetue o cá
 
 Desenvolvi uma API REST que permite buscar a lista de medicamentos e calcular a farmácia ideal considerando (preço x distância):
 
-#Instalação
+## Instalação
 ```
 $ git clone https://github.com/rsurfings/memed.git my-api
 $ cd my-api
