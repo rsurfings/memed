@@ -2,11 +2,11 @@
 
 # Desafio Checkout de Medicamentos
 
-Foi criado uma api usando o framework lumen
+Criação de uma API REST que possibilite a busca de medicamentos e efetue o cálculo (preço x distância).
 
 ## Solução:
 
-Montei uma API REST buscando a lista de medicamentos e seus respectivos atributos que filtra e retorna a farmacia ideal (preço x distancia):
+Desenvolvi uma API REST que permite buscar a lista de medicamentos e calcular a farmácia ideal considerando (preço x distância):
 
 #Instalação
 ```
