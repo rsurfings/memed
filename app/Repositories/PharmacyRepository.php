@@ -47,7 +47,7 @@ class PharmacyRepository implements PharmacyInterface
         $farmacy = [];
         foreach ($data as $key => $value) {
             
-            $distance = $this->distance($lat, $lon, $value->attributes->lat, $value->attributes->lon);
+            $distance = $this->haversine($lat, $lon, $value->attributes->lat, $value->attributes->lon);
             
             $info = $this->getInfo($value->links->self);
             $totalprice = $info['totalprice'];
@@ -91,8 +91,10 @@ class PharmacyRepository implements PharmacyInterface
         $info['totalprice'] = number_format($totalprice, 2);
         return $info;
     }
-
-    public function distance($p1LA, $p1LO, $p2LA, $p2LO)
+    /**
+    * @fonte https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Haversine
+    */		
+    public function haversine($p1LA, $p1LO, $p2LA, $p2LO)
     {
         $r = 6371.0;
         
